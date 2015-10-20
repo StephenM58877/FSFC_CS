@@ -1,0 +1,8 @@
+
+public class StringLesson {
+public static void main(String[] args){
+	String calcOne="Calculator1";
+	String calcTwo="calculator1";
+	System.out.println(calcOne.equals(calcTwo));
+}
+}

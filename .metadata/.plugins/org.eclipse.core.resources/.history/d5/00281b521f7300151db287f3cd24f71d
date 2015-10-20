@@ -1,0 +1,12 @@
+
+public class IfStatement {
+public static void main(String args[]){
+	int x = 8;
+	
+	if (x<20){
+		System.out.print("XXXXXXXXXXXXXXX");
+	}else{
+		System.out.print("YYYYYYYYYYYYYYY");
+	}
+}
+}
