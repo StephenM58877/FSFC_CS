@@ -1,0 +1,14 @@
+import java.util.*;
+public class Age {
+	public static void main(String[]args){
+		Scanner sc = new Scanner(System.in);
+		
+		int age = sc.nextInt(0);
+		if (age>150){
+			System.out.println("thats not your real age");
+		}else{
+			System.out.println("Congratulations on being "+ age);
+			
+		}
+		}
+	}
