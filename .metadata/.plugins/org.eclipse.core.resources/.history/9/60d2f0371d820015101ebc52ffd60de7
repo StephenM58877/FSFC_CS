@@ -1,0 +1,11 @@
+
+public class Loops {
+	int x = 8;{
+	while (x>8) {
+		System.out.println("In the loop");
+		x = 10;
+		
+}
+	System.out.println("Past the loop");
+}
+}
