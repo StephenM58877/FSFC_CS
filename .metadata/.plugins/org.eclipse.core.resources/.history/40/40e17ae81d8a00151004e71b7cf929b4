@@ -1,0 +1,23 @@
+package Arrays;
+import java.util.*;
+public class TwoDArrays {
+public static void main(String[]args){
+	Scanner row=new Scanner(System.in);
+	Scanner column=new Scanner(System.in);
+	int numRow=0;
+	numRow=row.nextInt();
+	int numColumn=0;
+	numColumn=column.nextInt();
+	int[][]a=new int[numRow][numColumn];
+	Scanner sc=new Scanner(System.in);
+	for(int rows = 0; rows<6;rows++){
+		for(int columns=0;columns<5;columns++){
+			System.out.println("Enter a number");
+			a[rows][columns]=sc.nextInt();
+		}
+	}
+	sc.close();
+	row.close();
+	column.close();
+}
+}

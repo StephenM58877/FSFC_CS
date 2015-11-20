@@ -1,0 +1,15 @@
+package Arrays;
+import java.util.*;
+public class TwoDArrays {
+public static void main(String[]args){
+	int[][]a=new int[6][5];
+	Scanner sc=new Scanner(System.in);
+	for(int rows = 0; rows<6;rows++){
+		for(int columns=0;columns<5;columns++){
+			System.out.println("Enter a number");
+			a[rows][columns]=sc.nextInt();
+		}
+	}
+	sc.close();
+}
+}
